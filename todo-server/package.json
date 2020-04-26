@@ -1,0 +1,20 @@
+{
+  "name": "todo-server",
+  "version": "1.0.0",
+  "description": "An Express API for your todos.",
+  "main": "src/app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongodb": "^3.5.6",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chester Li <yectep@gmail.com>",
+  "license": "MIT"
+}
